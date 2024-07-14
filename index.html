@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews Website 🎬</title>
+</head>
+<body>
+    <header>
+        <h1>Movie Reviews Central</h1>
+        <nav>
+            <ul>
+                <li><a href="#lr">Latest Reviews</a></li>
+                <li><a href="#tr">Top Rated</a></li>
+                <li><a href="#cu">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul><hr>
+        </nav>
+    </header>
+
+    <section>
+        <h2 id="lr">Latest Reviews</h2> 
+        <h3>Avengers: Endgame</h3>
+        <img src="Avengers_Endgame_poster.jpg" alt="Avengers Poster" width="200" height="300">
+        <p>Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast which includes Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse Thanos's actions in Infinity War....</p>
+        <video width="640" height="480" controls>
+            <source src="Marvel Studios' Avengers_ Endgame - Official Trailer.mp4" type="video/mp4">
+        </video>
+        <br>
+        <a href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_endg">Read full review</a>   
+    </section>
+
+    <section>
+        <h2 id="tr">Top Rated Movies</h2>
+        <table border="1" cellSpacing="4">
+            <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Avengers: Endgame</td>
+                <td>2019</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Avengers: Infinity War</td>
+                <td>2018</td>
+                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Avatar</td>
+                <td>2009</td>
+                <td>⭐️⭐️⭐️⭐️</td>
+                <td>Drama</td>
+            </tr>
+            <!-- ... -->
+        </table>
+    </section>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://www.imdb.com/calendar/">Upcoming Movies</a></li>
+            <li><a href="https://www.independent.co.uk/topic/film-directors">Interviews with Directors</a></li>
+        </ul><br>
+    </aside>
+
+    <div>
+        <h2 id="cu">Contact Us</h2>
+        <form>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+        
+            <label for="genre">Favorite Movie Genre:</label>
+            <select id="genre" name="genre">
+                <option value="action">Action</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+                <option value="horror">Horror</option>
+            </select><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+            <button type="submit">Send</button><br><br>
+        </form><hr>
+    </div>
+
+    <footer>
+        &copy; 2024 Movie Reviews Website
+    </footer>
+</body>
+</html>
